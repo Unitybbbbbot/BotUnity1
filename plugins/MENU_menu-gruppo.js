@@ -54,7 +54,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 │✏︎ ${usedPrefix} 𝒑𝒊𝒏𝒈
 │✏︎ ${usedPrefix} 𝒂𝒍𝒍𝒎𝒆𝒏𝒖
 │✏︎ 𝐕𝐄𝐋𝐎𝐂𝐈𝐓𝐀': ${speed} 𝐬𝐞𝐜𝐨𝐧𝐝𝐢
-└────*𝑩𝑶𝑻𝑾𝑯𝑨𝑰𝑻𝑨 V${vs}*
+└────*𝑩𝑶𝑻UNTIY V${vs}*
 `.trim();
   conn.sendFile(m.chat, grup, 'errop.jpg', text, m, false );
 };
