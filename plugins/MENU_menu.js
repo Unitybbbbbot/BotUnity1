@@ -37,7 +37,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, isPrems,
   const speed = neww - old;
   const prova ={'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': true, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
-  const text = `  *☁️𝑴𝒐𝒐𝒏𝑪𝒍𝒐𝒖𝒅𝒔⇝𝐁Ꮻ𝐓|mənū☁️*
+  const text = `  *☁️UnityBot MenuComand☁❤*
 ┌──•✧𝑶𝒈𝒈𝒊✧•─────┐
 ┊─•✧*𝘿𝘼𝙏𝘼:* ${date}
 ┊─•✧*𝙊𝙍𝘼:* ${bottime}
@@ -71,13 +71,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, isPrems,
 ┊➤ ' ${usedPrefix} ' *𝑵𝑬𝑾𝑺*
 └──𝑩𝑶𝑻𝑾𝑯𝑨𝑰𝑻𝑨 V${vs}
 
-┌─*𝑱𝒐𝒊𝒏 𝒘𝒊𝒕𝒉 𝒖𝒔*
-┊─• *𝑺𝒄𝒂𝒓𝒊𝒄𝒂𝒓𝒆 𝑴𝒐𝒐𝒏𝑪𝒍𝒐𝒖𝒅𝒔⇝𝐁Ꮻ𝐓*
-┊ https://github.com/Fabri115/botwhaita.git
-┊─• *𝑬𝒏𝒕𝒓𝒂 𝒊𝒏 𝐌ꮻꮻ𝖓☾︎ℓꮻ𝕦𝜕𝖘*
-┊ https://chat.whatsapp.com/InZqSk4lsyzKJUtSWfsdjF 
-┊─• *𝑻𝒖𝒕𝒐𝒓𝒊𝒂𝒍:*
-┊ https://www.youtube.com/watch?v=6Cg1yUMz-Do
+┌─𝑱𝒐𝒊𝒏 𝒘𝒊𝒕𝒉 𝒖𝒔
+┊─• * *Entra in 𒊹1☞  ℬ𝒶𝒷𝓎sᴀʟᴏᴏɴ👑 *
+┊ https://chat.whatsapp.com/H8MzSFNQ4xh4fLXs5xByDu
+┊─• * 𝑬𝒏𝒕𝒓𝒂 𝒊𝒏 𒊹2☞ 𝘾𝐨ℕᴏՏᴄ𝒆𝚗𝗭𝘦 Ⓓ𝔦s𝕦𝐦𝐚nᴇ👥 *
+┊ https://chat.whatsapp.com/KNv0BS48rWbJWdd7Fw0bJ6
 ┊─• *last news:*
 ┊─• ${global.prefix} MenuIos
 └── ⇝ *ꪶ͢𝑴☁️ꫂ ᵉᵈᶦᶻ ²⁰²³*`.trim();
