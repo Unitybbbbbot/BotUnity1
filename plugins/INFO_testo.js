@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix: _p}) => {
 *⍣botwhaita⍣*
 Tutorial
 https://www.youtube.com/watch?v=6Cg1yUMz-Do
-Se non riesci cosi lascia perdere.
+Se non riesci cosi lascia perdere, sei troppo stupido.
     `.trim();
 
   conn.reply(m.chat, info);
