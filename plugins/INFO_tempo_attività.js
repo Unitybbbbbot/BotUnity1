@@ -11,8 +11,8 @@ const handler = async (m, {conn}) => {
 │
 │ *=> 🤖 Tempo attività:* ${uptime}
 │ *=> ✅ Bot di uso Pubblico*
-│ *=> 👑 Creatore: Fabri115*
-│ *=> 🔗 link bot:* https://github.com/Fabri115/botwhaita
+│ *=> 👑 Creatore: Mirkoooooooo*
+│ *=> 🔗 link bot:* https://github.com/Unitybbbbbot/BotUnity1
 ╰────────────────`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": `https://github.com/Fabri115/botwhaita`, "sourceUrl": `https://github.com/Fabri115/botwhaita`}}}, {quoted: m});
