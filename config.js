@@ -8,11 +8,10 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['390371717717', 'nobody|'],
-  ['393518398856', 'nobody|'],
-  ['393755775755', 'nobody|'],
-  ['393755575577', 'nobody|'],
-  ['33760536110', 'nobody|'],
+  ['393201391411', 'nobody|'],
+  ['40790115929', 'nobody|'],
+  ['385903190456', 'nobody|'],
+  ['40790144566', 'nobody|'],
 ]
 global.suittag = ['390371717717'] 
 global.prems = ['390371717717'] 
